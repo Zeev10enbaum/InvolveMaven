@@ -10,7 +10,7 @@ import pageobjects.LogInPageInvolveMe;
 
 public class CategoriesNavigationInvolveMe extends BaseTest {
 
-	@Test(description = "Valid log in")
+	@Test(description = "Valid log in.")
 	public void tc01_successfulLogIn() {
 		MainPage mp = new MainPage(driver);
 		mp.gotologin();

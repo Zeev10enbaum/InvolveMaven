@@ -81,4 +81,5 @@ public class BasePage {
 		js.executeScript("var tmpArguments = arguments;setTimeout(function () {tmpArguments[0].setAttribute('style', '"
 				+ originalStyle + "');},400);", element);
 	}
+	
 }
